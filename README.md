@@ -35,7 +35,7 @@ To run this game on your local machine, follow these steps:
    ```bash
    python game.py
    ```
-```
+
 
 ## Assets
 
