@@ -4,8 +4,9 @@ import pygame
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 GREEN = (0, 255, 0)
+GRAY = (169, 169, 169)
 
-def draw_road():
+def draw_road(screen, WIDTH, HEIGHT):
     # Draw the road itself
     pygame.draw.rect(screen, GRAY, (WIDTH // 3, 0, WIDTH // 3, HEIGHT))  # Road
 
